@@ -67,7 +67,7 @@ def query_and_get_results(query, result_count, fetched_filename, id_filename):
 
 def main():
     query = '"betacoronavirus" AND "complete genome"'
-    log_filename = 'NCBI_downloader.log'
+    log_filename = 'NCBI_efetcher.log'
     fasta_filename = 'all_genoomes.fasta'
     summary_filename = 'all_genoomes_ids.txt'
 
