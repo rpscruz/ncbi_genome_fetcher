@@ -42,9 +42,6 @@ def new_results_available(search_result_count, log_filename):
 def query_and_get_results(query, result_count, fetched_filename):
     esearch_cmd = 'esearch -db nucleotide -query'.split()
     esearch_cmd.append(query)
-
-    esummary_cmd = 'esearch_cmd'
-
     efetch_cmd = 'efetch -format fasta'.split()
 
     esearch_process = subprocess.Popen(esearch_cmd, 
