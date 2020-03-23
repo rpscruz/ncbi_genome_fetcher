@@ -39,7 +39,7 @@ def new_results_available(search_result_count, log_filename):
         logging.info("No previous search results to check. ")
         return True
 
-def query_and_get_results(query, result_count, fetched_filename, id_filename):
+def query_and_get_results(query, result_count, fetched_filename):
     esearch_cmd = 'esearch -db nucleotide -query'.split()
     esearch_cmd.append(query)
 
@@ -79,7 +79,7 @@ def main():
 
     if new_results_are_available:
         logging.info("Additional genomes available. Fetching additional genomes.")
-        query_and_get_results(query, search_result_count, fasta_filename, summary_filename)
+        query_and_get_results(query, search_result_count, fasta_filename)
     else:
         logging.info('No new results to fetch. Perviously fetched {} files.'.format(search_result_count))
 
