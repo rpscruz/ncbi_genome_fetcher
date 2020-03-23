@@ -1,0 +1,10 @@
+2020-03-23 13:01:45,131 : INFO : Successfully searched for "betacoronavirus" AND "complete genome". Yielded 1410 results.
+2020-03-23 13:01:45,137 : INFO : No previous search results to check. 
+2020-03-23 13:01:45,137 : INFO : Additional genomes available. Fetching additional genomes.
+2020-03-23 13:05:43,212 : INFO : Successfull fetched fasta files for query "betacoronavirus" AND "complete genome". Fetched 1410 files.
+2020-03-23 13:05:50,359 : INFO : Successfully searched for "betacoronavirus" AND "complete genome". Yielded 1410 results.
+2020-03-23 13:05:50,365 : INFO : No new results to fetch. Perviously fetched 1410 files.
+2020-03-23 13:05:53,275 : INFO : Successfully searched for "betacoronavirus" AND "complete genome". Yielded 1410 results.
+2020-03-23 13:05:53,285 : INFO : No new results to fetch. Perviously fetched 1410 files.
+2020-03-23 13:05:57,117 : INFO : Successfully searched for "betacoronavirus" AND "complete genome". Yielded 1410 results.
+2020-03-23 13:05:57,126 : INFO : No new results to fetch. Perviously fetched 1410 files.
