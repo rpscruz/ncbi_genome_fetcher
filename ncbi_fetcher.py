@@ -68,8 +68,7 @@ def query_and_get_results(query, result_count, fetched_filename, id_filename):
 def main():
     query = '"betacoronavirus" AND "complete genome"'
     log_filename = 'NCBI_efetcher.log'
-    fasta_filename = 'all_genoomes.fasta'
-    summary_filename = 'all_genoomes_ids.txt'
+    fasta_filename = 'all_genomes.fasta'
 
     log_format = FORMAT = '%(asctime)s : %(levelname)s : %(message)s'
     logging.basicConfig(filename=log_filename, level=logging.INFO,
