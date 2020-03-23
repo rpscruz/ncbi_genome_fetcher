@@ -1,7 +1,6 @@
 import xml.etree.ElementTree as ET
 import subprocess
 import logging
-import time
 import csv
 import re
 
@@ -87,6 +86,4 @@ def main():
 
 
 if __name__ == '__main__': 
-    start_time = time.time()
     main()
-    print(time.time()-start_time)
