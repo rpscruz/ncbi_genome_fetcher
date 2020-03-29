@@ -1,4 +1,4 @@
-# ncbi_efetcher
+# ncbi_genome_efetcher
 
 A script to automatically fetch genome data from the Nucleotide database of the NCBI, by querying by genome.
 
