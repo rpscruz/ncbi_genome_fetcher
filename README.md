@@ -10,7 +10,7 @@ This script requires Entrez Direct: E-utilities on the UNIX Command Line, availa
 When this is available, the script can be run via the command line with the following command:
 
 ```
-python3 ncbi_fetcher.py [-h] [-l L] [-f F] [-q Q] [-db DB]
+python3 ncbi_fetcher.py [-h] [-l L] [-f F] [-q Q]
 ```
 
 The following are the optional arguments for this script:
@@ -20,7 +20,6 @@ The following are the optional arguments for this script:
   -f F        Fasta filename (default: all_genomes_betacoronavirus.fasta)
   -q Q        Query for Database (default: "betacoronavirus" AND "complete
               genome")
-  -db DB      Database (default: nucleotide)
 ```
 
 ## Output
