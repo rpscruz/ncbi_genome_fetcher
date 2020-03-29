@@ -1,6 +1,6 @@
 # ncbi_efetcher
 
-A script to automatically fetch genome data from the Nucleotide database of the NCBI.
+A script to automatically fetch genome data from the Nucleotide database of the NCBI, by querying by genome.
 
 ## Dependencies
 This script requires Entrez Direct: E-utilities on the UNIX Command Line, available here https://www.ncbi.nlm.nih.gov/books/NBK179288/.
