@@ -18,8 +18,7 @@ The following are the optional arguments for this script:
   -h, --help  show this help message and exit
   -l L        Log filename (default: NCBI_efetcher.log)
   -f F        Fasta filename (default: all_genomes_betacoronavirus.fasta)
-  -q Q        Query for Database (default: "betacoronavirus" AND "complete
-              genome")
+  -q Q        Query for Database (default: "betacoronavirus[orgn]")
 ```
 
 ## Output
